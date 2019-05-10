@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API01</name>
+    </assembly>
+    <members>
+        <member name="P:API01.API01Model.ID">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:API01.API01Model.Describe">
+            <summary>
+            Describe
+            </summary>
+        </member>
+        <member name="P:API01.API01Model.Price">
+            <summary>
+            Price
+            </summary>
+        </member>
+        <member name="P:API01.API01Model.IsSure">
+            <summary>
+            IsSure
+            </summary>
+        </member>
+    </members>
+</doc>

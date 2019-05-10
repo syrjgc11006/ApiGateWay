@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiGateWay</name>
+    </assembly>
+    <members>
+        <member name="M:ApiGateWay.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+             <summary>
+            【谨记】 该方法一直会报api文档无法加载的错误
+             </summary>
+             <param name="app"></param>
+             <param name="env"></param>
+        </member>
+    </members>
+</doc>

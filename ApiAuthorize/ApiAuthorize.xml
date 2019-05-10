@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiAuthorize</name>
+    </assembly>
+    <members>
+        <member name="P:ApiAuthorize.BackResult.Result">
+            <summary>
+            返回结果
+            </summary>
+        </member>
+        <member name="P:ApiAuthorize.BackResult.Data">
+            <summary>
+            token数据
+            </summary>
+        </member>
+        <member name="T:ApiAuthorize.Controllers.LoginController">
+            <summary>
+            登录
+            </summary>
+        </member>
+        <member name="M:ApiAuthorize.Controllers.LoginController.Login(ApiAuthorize.LoginModel)">
+            <summary>
+            登录
+            </summary>
+            <param name="loginModel">登录Model</param>
+            <returns></returns>
+        </member>
+        <member name="T:ApiAuthorize.LoginModel">
+            <summary>
+            登录Model
+            </summary>
+        </member>
+        <member name="P:ApiAuthorize.LoginModel.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:ApiAuthorize.LoginModel.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+    </members>
+</doc>

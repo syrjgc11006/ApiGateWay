@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>0.0.4</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/axzxs2001/Ocelot.JWTAuthorize</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/axzxs2001/Ocelot.JWTAuthorize/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/axzxs2001/Ocelot.JWTAuthorize</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>ocelot,Jwt,bearer,Authorize</PackageTags>
+    <Authors>Gui Suwei</Authors>
+    <Company>Gui Suwei</Company>
+    <Description>This library is used in the verification project when Ocelot is used as an API gateway. In the Ocelot project, the API project, the verification project, and the injection function can be used.</Description>
+    <PackageIconUrl>https://en.gravatar.com/userimage/127492023/4c91bdd5f8e3c7e7c810cb440ca56a70.png</PackageIconUrl>
+    <FileVersion>0.0.4.0</FileVersion>
+    <AssemblyVersion>0.0.4.0</AssemblyVersion>
+    <PackageReleaseNotes>add username and ip bind authentication</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>
